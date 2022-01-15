@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding:0
+}
+.banner__wrapper, .influe__logos, .before___wrapper{
+    margin:20px 30px;
+    padding:10px 60px;
+}
+.navbar__wrapper, .main__banner__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 100px;
+    padding: 30px ;
+    border: 2px solid gray;
+    box-shadow: 0px 0px 5px gray;
+}
+.navbar__right_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   list-style: none;
+}
+
+.navbar__right_section li{
+    margin-right: 40px;
+    color:#3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+}
+.common__button{
+    background: #E02C6D;
+color:white;
+border-radius: 41px;
+border: none;
+padding: 10px 24px;
+cursor: pointer;
+}
+.star__wrapper{
+    display: flex;
+    align-items: center;
+    color: #FB8200;
+}
+.Popular__collection__wrapper{
+   margin: 30px 180px;
+
+}
+.origin_all_card__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.origin_all_card__wrapper div{
+    flex: 30%;
+    border: 1px solid rgb(224, 220, 220);
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 8px;
+}
+.origin_all_card__wrapper div>img{
+   width: 100%;
+   height: 400px;
+}
+.text__right{
+    text-align: right;
+color:#E02C6D;
+padding: 10px;
+margin: 20px 10px;
+cursor: pointer;
+}
+.lower__banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__wrapper{
+    background:  #0A0826;
+    padding: 60px 20px;
+color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.icon__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon__wrapper i{
+    margin-right: 20px;
+    font-size: 25px;
+}
